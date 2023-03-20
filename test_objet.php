@@ -1,0 +1,9 @@
+<?php
+include './maison.php';
+//créer une instance d'un objet maison
+$maison = new Maison('maison',60,40,4);
+
+var_dump($maison);
+echo '<p>la surface de nomMaison est égale à '.$maison ->surface().'m²';
+
+?>
